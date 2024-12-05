@@ -1,0 +1,52 @@
+--CREATE DATABASE SAIF_DEPI;
+--GO 
+--USE SAIF_DEPI
+--GO
+--CREATE TABLE employees(
+--Emp_id int ,
+--Emp_name nvarchar(50),
+--Location_ nvarchar(100)
+--)
+--insert into employees (Emp_id,Emp_name,Location_)
+--values 
+--(100,'saif sameh','cairo')
+--insert into employees (Emp_id,Emp_name,Location_)
+--values 
+--(101,'anas sameh','menofia')
+--insert into employees (Emp_id,Emp_name,Location_)
+--values 
+--(102,'hams sameh','dammam')
+--select * from employees ;
+--select Emp_id,Emp_name,Location_ 
+--from employees 
+--where Location_ = 'cairo';
+--select Emp_id 
+--from employees 
+--create table students (
+--ID int primary key ,
+--first_name nvarchar(50) NOT NULL,
+--last_name nvarchar (50) default 'unknown' ,
+--address_ nvarchar(100) default 'N/A',
+--city nvarchar(50) default 'N/A',
+--birth_date date	not null	
+--)
+--drop table students
+--create table students (
+--first_name nvarchar(50) NOT NULL,
+--last_name nvarchar (50) default 'unknown' ,
+--address_ nvarchar(100) default 'N/A',
+--city nvarchar(50) default 'N/A',
+--birth_date date	not null,
+--ID int primary key identity (1,1) 
+--)
+--insert into students 
+--values 
+--('Ahmed', 'Ali', 'Downtown', 'Cairo', '1995-01-01')
+--insert into students 
+--values 
+--('khalid', 'ahmed', 'madena nasr', 'Cairo', '1997-08-15')
+--update students
+--set address_='garden'
+--where last_name='ahmed'
+
+
