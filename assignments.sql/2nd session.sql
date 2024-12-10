@@ -44,5 +44,9 @@ values('mohamed','badr',3500,200)
 -- 1st question 
 --Write a SQL query to retrieve the emp_id, last_name, and salary of employees whose salary 
 --is between 2,000 and 5,000 and do not have a manager ID of 101 or 200. 
-
+SELECT emp_id,l_name,salary
+FROM employees
+WHERE salary between 2000 and 5000 
+AND
+maneger_id NOT IN (101,200);
 
