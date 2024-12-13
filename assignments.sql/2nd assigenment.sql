@@ -85,7 +85,7 @@ maneger_id NOT IN (101,200);
 select e.f_name,e.l_name,d.department_name
 from employees e
 inner join department d on d.department_id=e.department_id
-
+order by department_name asc
 --third question Write a SQL query to find the number of employees and the average salary for each department. Ensure that the results are grouped by department ID.
 select count(*) as employees_for_dep ,AVG(e.salary) as salary_for_dep
 from employees e
