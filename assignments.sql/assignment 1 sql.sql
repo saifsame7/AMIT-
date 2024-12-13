@@ -72,5 +72,9 @@
 
 --set address_='garden'
 --where last_name='ahmed'
-
-
+  
+  --Write a SQL query to delete the rows from the students table where City is 'Cairo', and then rollback the transactio
+--begin transaction ;
+--delete from students where city ='cairo';
+--select * from students ;
+--rollback;

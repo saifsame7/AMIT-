@@ -2,15 +2,6 @@
 --USE SAIF_DEPI
 --go
 
--- first assignment 2nd question 
--- Write a SQL query that displays distinct dept_id values from the employees table. 
-
---select distinct EMP_ID
---from employees ;
-
--- first assignment 5th question
---  Write a SQL query to delete the rows from the students table where City is 'Cairo', and then rollback the transaction
-
 --begin transaction ;
 --delete from students where city ='cairo';
 --select * from students ;
