@@ -30,7 +30,7 @@
 
 --2-Write a SQL query that displays distinct dept_id values from the 
 
---select Emp_id 
+--select distinct Emp_id 
 --from employees 
 
 --3-1 Write a SQL query to create a table students with the following columns: ID (Primary Key)
